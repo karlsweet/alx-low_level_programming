@@ -6,7 +6,7 @@
  *
  * Return: always (Success)
  *
-8 */
+ */
 int main(void)
 {
 	int n;
