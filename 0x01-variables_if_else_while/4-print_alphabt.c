@@ -3,16 +3,21 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
  * Return: always 0 (Success)
  */
+
 int main(void)
 {
-        int i;
+	char low, e, q;
 
-	for (i= 0; i < 10; i++)
-	printf("%d", i);
-	printf("\n");
+	e = 'e';
+	q = 'q';
 
+	for (low = 'a'; low <= 'z'; low++)
+	{
+	if (low != e && low != q)
+	putchar(low);
+	}
+	putchar('\n');
 	return (0);
 }
